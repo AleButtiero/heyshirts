@@ -1,13 +1,15 @@
-import React from 'react';
-import Navbar from './components/navbar/Navbar';
-import ItemListContainer from './components/ItemListContainer/itemlistcontainer';
+import NavBar from "./components/NavBar/NavBar";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+
+
+
+
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <ItemListContainer greeting="Hey Shirts! Tienda online de remeras"/>
-
+    <div> 
+      <NavBar />
+      <ItemListContainer greeting="Bienvenidos!" />
     </div>
   ) 
 }
